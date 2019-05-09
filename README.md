@@ -18,12 +18,12 @@ Sample request
   "amount" : "214.76"
 }
 ```
-
-**Response Status Code: 200 OK**
-
+```javascript
+Response Status Code: 200 OK
+```
 NOTE: This can only transfer amounts between accounts with the same currency.
 
-__**Transfer Errors**__
+__**List of Possible Transfer Errors**__
 
 **Response Code 400 BAD REQUEST**
 ```javascript
@@ -64,6 +64,10 @@ Sample request with specified currency
   }
 }
 ```
+```javascript
+Response Status Code: 200 OK
+```
+
 __Retrieve all accounts__
 - GET [http://localhost:7000/accounts](http://localhost:7000/accounts)
 
@@ -86,8 +90,9 @@ sample response
 }
 ]
 ```
-
-**Status Code 200 OK**
+```javascript
+Response Status Code 200 OK
+```
 
 __Retrieve specific account__
 
@@ -103,9 +108,11 @@ sample response
   }
 }
 ```
-**Status Code 200 OK**
+```javascript
+Response Status Code: 200 OK
+```
 
-__**Account Errors**__
+__**List of Possible Account Errors**__
 
 **Status Code 400 BAD REQUEST**
 
