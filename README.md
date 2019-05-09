@@ -49,6 +49,7 @@ Sample request (defaults to currency of USD)
   "id" : "1234",
   "balance" : {
     "amount" : "214.76"
+  }
 }
 ```
 
@@ -60,6 +61,7 @@ Sample request with specified currency
   "balance" : {
     "amount" : "214.76",
     "currency" : "GBP"
+  }
 }
 ```
 __Retrieve all accounts__
