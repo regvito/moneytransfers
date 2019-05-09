@@ -19,7 +19,7 @@ Sample request
 }
 ```
 ```javascript
-Response Status Code: 200 OK
+Succesful Response Status Code: 200 OK
 ```
 NOTE: This can only transfer amounts between accounts with the same currency.
 
@@ -65,7 +65,7 @@ Sample request with specified currency
 }
 ```
 ```javascript
-Response Status Code: 200 OK
+Succesful Response Status Code: 200 OK
 ```
 
 __Retrieve all accounts__
@@ -91,7 +91,7 @@ sample response
 ]
 ```
 ```javascript
-Response Status Code 200 OK
+Succesful Response Status Code 200 OK
 ```
 
 __Retrieve specific account__
@@ -109,7 +109,7 @@ sample response
 }
 ```
 ```javascript
-Response Status Code: 200 OK
+Succesful Response Status Code: 200 OK
 ```
 
 __**List of Possible Account Errors**__
