@@ -107,6 +107,7 @@ public class RestEndpointsTest
     @Test
     public void testRetrievalOfAllAccounts()
     {
+        dataSetup();
         given()
             .when()
                 .get("/accounts")
