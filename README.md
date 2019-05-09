@@ -120,7 +120,7 @@ __**List of Possible Account Errors**__
 Account with id xxxx not found.
 ```
 ```javascript
-Duplicates are not allowed. Account with id xxxx already exists. "
+Duplicates are not allowed. Account with id xxxx already exists.
 ```
 ```javascript
 Invalid currency.
