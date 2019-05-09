@@ -12,7 +12,14 @@ This implements a RESTful web service that enables money transfers between accou
 - mvn clean install
 
 ## How to run
-- java -jar ".\target\moneytransfers-1.0-SNAPSHOT-onejar.jar"
+Without arguments, the web service starts in port 7000
+```javascript
+java -jar ".\target\moneytransfers-1.0-SNAPSHOT-onejar.jar"
+````
+To run in a specific port,
+```javascript
+java -jar ".\target\moneytransfers-1.0-SNAPSHOT-onejar.jar" <port>
+````
 
 ## How to run unit tests
 - mvn test
