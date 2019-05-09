@@ -21,7 +21,7 @@ Sample request
 
 **Response Status Code: 200 OK**
 
-NOTE: Can only transfer amounts between accounts with the same currency.
+NOTE: This can only transfer amounts between accounts with the same currency.
 
 __**Transfer Errors**__
 
