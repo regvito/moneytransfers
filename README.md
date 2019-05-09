@@ -62,7 +62,7 @@ Sample request with specified currency
     "currency" : "GBP"
 }
 ```
-__Retrieval__
+__Retrieve all accounts__
 - GET [http://localhost:7000/accounts](http://localhost:7000/accounts)
 
 sample response
@@ -86,6 +86,8 @@ sample response
 ```
 
 **Status Code 200 OK**
+
+__Retrieve specific account__
 
 - GET [http://localhost:7000/accounts/1234](http://localhost:7000/accounts/1234)
 
